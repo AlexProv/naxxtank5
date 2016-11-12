@@ -22,4 +22,4 @@
 
 # igniore local conf 
 /config/database.yml
-Gemfile
+# Gemfile
