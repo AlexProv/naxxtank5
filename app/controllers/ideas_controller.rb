@@ -5,7 +5,7 @@ class IdeasController < ApplicationController
 
     def index
         h = {:a => 1, :b => 2}
-        respond_with( { :ok => true }.to_json )
+        render :json => { :ok => true }.to_json 
     end
     # private
     #     def parse_request
